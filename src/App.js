@@ -7,34 +7,6 @@ import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
 
 const config = { 
   fpsLimit: 60,
-  interactivity: {
-    events: {
-      onClick: {
-        enable: true,
-        mode: "push",
-      },
-      onHover: {
-        enable: true,
-        mode: "repulse",
-      },
-      resize: true,
-    },
-    modes: {
-      bubble: {
-        distance: 400,
-        duration: 2,
-        opacity: 0.8,
-        size: 40,
-      },
-      push: {
-        quantity: 4,
-      },
-      repulse: {
-        distance: 100,
-        duration: 0.2,
-      },
-    },
-  },
   particles: {
     color: {
       value: "#ffffff",
@@ -62,20 +34,13 @@ const config = {
         enable: true,
         area: 800,
       },
-      value: 70,
+      value: 100,
     },
     opacity: {
       value: 0.5,
     },
-    shape: {
-      type: "circle",
-    },
-    size: {
-      random: true,
-      value: 5,
-    },
-  },
-  detectRetina: true,
+
+  }
   
 }
 

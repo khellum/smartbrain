@@ -9,7 +9,7 @@ const Component = () => ({
                     <Logo />
                 </div>
                 <div style={{display: 'flex', justifyContent: 'flex-end', width: '50%'}}>
-                    <p className="f3 link dim white underling pa3 point pointer" > Sing out! </p>
+                    <p className="f3 link dim white underling pa2 point pointer" > Sing out! </p>
                 </div>
             </div>
         )
